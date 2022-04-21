@@ -1,0 +1,28 @@
+2022-04-21 15:21:06,430 - bp_home - INFO - Model Loaded
+2022-04-21 15:22:20,381 - bp_home - INFO - <Request: GET /msg_search>
+2022-04-21 15:22:21,144 - bp_home - INFO - [{'msg_id': 15, 'index': '我是**地黑社会有人出两万块钱让我打断你一条腿', 'similarity': '80.96%', 'simi_times': 78}]
+2022-04-21 15:24:13,062 - bp_home - INFO - Model Loaded
+2022-04-21 15:25:17,147 - bp_home - INFO - <Request: GET /msg_search>
+2022-04-21 15:25:17,906 - bp_home - INFO - [{'msg_id': 15, 'index': '我是**地黑社会有人出两万块钱让我打断你一条腿', 'similarity': '80.96%', 'simi_times': 79}]
+2022-04-21 15:25:58,711 - bp_home - INFO - <Request: GET /msg_info>
+2022-04-21 15:25:58,913 - bp_home - INFO - {'msg_text': '我是**地黑社会有人出两万块钱让我打断你一条腿', 'msg_analysis': '1', 'simi_times': 80, 'kind_name': '威胁类', 'laws': ['《中华人民共和国刑法》 第二百六十六条\u3000\r\n【诈骗罪】诈骗公私财物，数额较大的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；数额巨大或者有其他严重情节的，处三年以上十年以下有期徒刑，并处罚金；数额特别巨大或者有其他特别严重情节的，处十年以上有期徒刑或者无期徒刑，并处罚金或者没收财产。本法另有规定的，依照规定。\r\n'], 'solutions': ['如涉及生命安全，应首先保持冷静心态，及时报警，不要盲目按照信息指令进行打款、转账等操作。', '如信息涉及近亲属及好友，应第一时间联系所在单位/学校进行确认，不可“关心则乱”，带来不必要的损失。'], 'is_star': False}
+2022-04-21 15:28:51,583 - bp_home - INFO - <Request: GET /query_record>
+2022-04-21 15:28:51,592 - bp_home - INFO - [{'msg_id': 15, 'time': '2022-04-21 15:25:58', 'msg_text': '我是**地黑社会有人出两万块钱让我打断你一条腿'}]
+2022-04-21 15:29:52,966 - bp_home - INFO - <Request: GET /add_star>
+2022-04-21 15:29:53,020 - bp_home - INFO - True
+2022-04-21 15:31:37,979 - bp_home - INFO - <Request: GET /remove_star>
+2022-04-21 15:31:38,160 - bp_home - INFO - True
+2022-04-21 15:32:28,518 - bp_home - INFO - <Request: GET /get_star>
+2022-04-21 15:32:28,535 - bp_home - INFO - []
+2022-04-21 15:32:34,497 - bp_home - INFO - <Request: GET /add_star>
+2022-04-21 15:32:34,572 - bp_home - INFO - True
+2022-04-21 15:32:37,246 - bp_home - INFO - <Request: GET /get_star>
+2022-04-21 15:32:37,263 - bp_home - INFO - [{'msg_id': 15, 'msg_text': '我是**地黑社会有人出两万块钱让我打断你一条腿'}]
+2022-04-21 15:33:29,301 - bp_home - INFO - <Request: GET /get_category>
+2022-04-21 19:11:02,199 - bp_home - INFO - Model Loaded
+2022-04-21 19:17:45,673 - bp_home - INFO - <Request: GET /user_register>
+2022-04-21 19:17:49,754 - bp_home - INFO - <Request: GET /user_register>
+2022-04-21 19:18:31,406 - bp_home - INFO - <Request: GET /user_login>
+2022-04-21 19:19:14,122 - bp_home - INFO - <Request: GET /user_login>
+2022-04-21 19:19:21,547 - bp_home - INFO - <Request: GET /user_login>
+2022-04-21 19:19:25,610 - bp_home - INFO - <Request: GET /user_login>
