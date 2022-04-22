@@ -157,6 +157,7 @@ async def get_kind(request):
     try:
         kind = int(request.args.get('kind', ''))
         result = await get_category(category=kind)
+        logger.info(result)
         return json(result, ensure_ascii=False)
     except Exception as e:
         logger.error(e)
@@ -171,6 +172,7 @@ async def register(request):
         user_id = str(request.args.get('user_id', '')).strip()
         user_password = str(request.args.get('password', '')).strip()
         result = await user_register(user_id=user_id, user_password=user_password)
+        logger.info(result)
         return json(result, ensure_ascii=False)
     except Exception as e:
         logger.error(e)
@@ -185,6 +187,7 @@ async def login(request):
         user_id = str(request.args.get('user_id', '')).strip()
         user_password = str(request.args.get('password', '')).strip()
         result = await user_login(user_id=user_id, user_password=user_password)
+        logger.info(result)
         return json(result, ensure_ascii=False)
     except Exception as e:
         logger.error(e)
